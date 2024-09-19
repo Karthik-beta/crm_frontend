@@ -43,6 +43,20 @@ export class AppMenuComponent implements OnInit {
                     { label: 'Products', icon: 'pi pi-fw pi-box' },
                 ]
             },
+            {
+                label: 'Marketing',
+                items: [
+                    { label: 'Marketing Lists', icon: 'pi pi-fw pi-envelope' },
+                    { label: 'Campaigns', icon: 'pi pi-fw pi-megaphone' },
+                ]
+            },
+            {
+                label: 'Performance',
+                items: [
+                    { label: 'Goals', icon: 'pi pi-fw pi-chart-bar' },
+                    { label: 'Forecast', icon: 'pi pi-fw pi-chart-line' },
+                ]
+            }
             // {
             //     label: 'Pages',
             //     icon: 'pi pi-fw pi-briefcase',
